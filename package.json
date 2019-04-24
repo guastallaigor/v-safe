@@ -1,7 +1,7 @@
 {
   "name": "v-safe",
   "author": "Igor Guastalla de Lima <limaguastallaigor@gmail.com>",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Vue.js directive to show text values from deep objects without any errors",
   "main": "dist/v-safe.min.js",
   "license": "MIT",
