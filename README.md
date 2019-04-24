@@ -10,6 +10,12 @@
 [![Downloads](https://img.shields.io/npm/dt/v-safe.svg)](https://github.com/guastallaigor/v-safe/)
 [![Vue2](https://img.shields.io/badge/Vue-2.x-brightgreen.svg)](https://vuejs.org/)
 
+## Why
+
+This is meant to avoid this type of error when you are using deep objects, that usually can happen when you're expecting a deep object after a Promise.
+
+> [Vue warn]: Error in render: "TypeError: Cannot read property 'c' of undefined"
+
 ## How to install
 
 ### npm
@@ -88,10 +94,6 @@ export default {
 }
 </script>
 ```
-
-This is meant to avoid this type of error when you are using deep objects, that usually can happen when you're expecting a deep object after a Promise.
-
-> [Vue warn]: Error in render: "TypeError: Cannot read property 'c' of undefined"
 
 ## Development
 
